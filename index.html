@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link href="my.css" rel="stylesheet" type="text/css" /> -->
+    <style>
+      @font-face {
+  font-family: robo ;
+  src: url(/RobotInvaders-d9VmR.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+  width: 100%;
+height: 100%;
+  /* background-color: black; */
+}
+.bar{
+width: 100%;
+height: 50px;
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+/* border: 2px solid rgb(32, 17, 17); */
+/* font-family: Georgia, 'Times New Roman', Times, serif; */
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Russo One', sans-serif;
+
+}
+.ho{
+  padding: 10px;
+}
+ .s,.ho:hover{
+  text-decoration: none;
+  color: rgb(254, 163, 5);
+  font-weight: 700;
+  
+
+  text-decoration: underline 2px solid rgb(254, 163, 5);
+}
+
+
+
+.lbar{
+
+  width: 20%;
+  height: 100%;
+  
+  color: rgba(34, 34, 34, 0.819);
+  
+  /* border: 2px solid rgb(30, 0, 255); */
+
+}
+.rbar{
+
+  width:60% ;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  right: 20px;
+  
+
+  
+  /* border: 2px solid rgb(104, 0, 45); */
+  
+}
+
+.main{
+
+  top: 30%;
+  position: relative;
+  height: 40%;
+  width: 70%;
+  /* border: 2px solid red; */
+  position: relative;
+  left: 10%;
+  font-family: 'Poppins', sans-serif;
+font-family: 'Russo One', sans-serif;
+font-family: 'Varela Round', sans-serif;
+
+}
+
+.main h1{
+  font-size: 75px;
+  color: rgba(34, 34, 34, 0.819);
+}
+
+.main p{
+  font-size: 27px;
+  color: rgba(0, 0, 0, 0.351);
+}
+
+.big{
+
+width: 100%;
+height: 100%;
+/* background-color: antiquewhite; */
+display: flex;
+}
+.left{
+  width: 40%;
+height: 100%;
+background-color: rgb(255, 255, 255);
+
+}
+.right{
+
+  width: 60%;
+height: 100%;
+/* background-color: rgb(15, 221, 200); */
+
+
+}
+
+.up{
+  width: 100%;
+height: 55%;
+/* background-color: rgb(242, 4, 0); */
+display: flex;
+
+}
+
+.rl{
+
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  /* background-color: rgb(129, 242, 0); */
+  /* display: flex; */
+
+
+}
+.rl img{
+  height: 100%;
+  overflow: hidden;
+}
+
+.rr{
+  width: 50%;
+  height: 100%;
+  /* background-color: rgb(232, 9, 187); */
+  overflow: hidden;
+
+
+}
+
+.rr img{
+  width: 100%;
+  /* height: 100%; */
+}
+.down{
+
+  
+  width: 100%;
+  height: 45%;
+  background-color: rgb(0, 212, 249);
+  overflow-y: hidden;
+
+}
+
+.down img{
+  /* height: 100%; */
+  width: 100%;
+
+}
+  
+
+@media(max-width: 500px){
+
+  .big{
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+  }
+
+  .left{
+    width: 80%;
+
+    height: 50%;
+  }
+
+  .right{
+    width:100%;
+    height: 50%;
+
+  }
+
+  .up{
+  width: 100%;
+  height: 50%;
+  }
+
+
+}
+
+
+    </style>
+
+</head>
+<body>
+    
+
+  <div class="big">
+
+  <div class="left">
+
+   <div class="bar">
+  <div class="lbar">
+    <div class="logo"><h1>HI</h1></div>
+  </div>
+  <div class="rbar">
+    <div class="ho s">HOME</div>
+    <div class="ho">ABOUT</div>
+    <div class="ho">CONTACT</div>
+  </div>
+   </div>
+
+   <div class="main">
+    
+    <h1>Hello,</h1>
+    <p>welcome to our online fruit stall we sell fresh fruits buy now</p>
+   </div>
+
+
+  </div>
+  <div class="right">
+    <div class="up">
+      <div class="rl">
+
+      <img src="https://publish.purewow.net/wp-content/uploads/sites/2/2021/02/types-of-oranges-cat.jpg?resize=720%2C524" alt=""> 
+      </div>
+      <div class="rr">
+
+        <img src="https://plus.unsplash.com/premium_photo-1675667408018-3b64dbc55db1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="">
+       </div>
+    </div>
+    <div class="down">
+
+      
+        <img src="https://plus.unsplash.com/premium_photo-1675237625619-4fdb5e21ef87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="">
+      
+      
+      </div>
+  </div>  
+
+</div>
+</body>
+</html>
